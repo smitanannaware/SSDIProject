@@ -1,0 +1,24 @@
+<div>
+    <h1>Welcome to Recommender system</h1>
+
+    <div class="result">
+        <table class="table">
+        <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="app">
+                {% for k in movieList %}
+                    <td>{{ k }}</td>
+                {% endfor %}
+            </tr>
+
+        </tbody>
+    </table>
+    </div>
+
+
+</div>
